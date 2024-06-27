@@ -1,0 +1,153 @@
+.students {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+/* .ant-input-search .ant-input:focus +.ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary){
+    border-inline-start-color: var(--primaryColor);
+}
+
+.ant-input-search .ant-input:h +.ant-input-group-addon .ant-input-search-button:not(.ant-btn-primary){
+    border-inline-start-color: var(--primaryColor);
+} */
+.students-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:30px;
+}
+
+.students-content,
+.students-header {
+    margin: 0 30px 15px 30px;
+}
+
+.ant-btn-primary:not(:disabled):hover {
+    background-color:   var(--selectedColor);
+}
+
+.ant-input-search .ant-input:hover,
+.ant-input-search-button:not(.ant-btn-primary):hover,
+.ant-input-search .ant-input:focus , .ant-input-search-button:hover, .ant-input-group-addon:focus{
+    border-color: var(--primaryColor);
+}
+
+.ant-input-search-button:not(.ant-btn-primary):hover,
+.ant-input-search>.ant-input-group>.ant-input-group-addon:last-child
+.ant-input-search-button:not(.ant-btn-primary):hover {
+    color: var(--primaryColor)
+}
+
+.ant-table-wrapper {
+    margin: 0px;
+    width: 100%;
+    min-height: 60%;
+}
+
+.student-content {
+    display: flex;
+}
+
+.student-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.student-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.student-right {
+    padding: 50px;
+}
+
+.student-right p {
+    font-weight: 600;
+}
+
+.students-content {
+    max-height: 900px;
+    overflow-x: scroll;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.courses-title {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.37);
+}
+
+.student-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.student-details .title {
+    max-width: 30%;
+}
+
+.student-details span {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+    font-weight: bold;
+    max-width: 25%;
+}
+
+.details-buttons {
+    display: flex !important;
+    gap: 20px;
+}
+
+@media (max-width: 535px) {
+    .student-details span {
+        max-width: 37%;
+    }
+
+    .student-details .title {
+        max-width: 46%;
+    }
+
+    .details-buttons {
+        display: flex !important;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .student-right {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .student-details span {
+        max-width: 45%;
+    }
+
+    .student-details .title {
+        max-width: 60%;
+    }
+
+    .students-content {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .students-header {
+        flex-direction: column;
+    }
+}

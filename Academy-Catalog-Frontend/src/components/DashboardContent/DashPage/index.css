@@ -1,0 +1,115 @@
+.dash-page {
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  max-height: 900px;
+  overflow-y: scroll;
+}
+
+.steps-dashpage {
+  margin: 10px 20px;
+  background-color: var(--whiteColor);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px #00000034;
+}
+
+.row
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media  screen and (max-width: 620px) {
+    .row
+    {
+        grid-template-columns: none;
+    }
+}
+
+.hello-dashpage {
+  margin: 10px 20px 15px;
+  background-color: var(--whiteColor);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px #00000034;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+
+.hello-dashpage span {
+    font-weight: 400;
+    color: var(--primaryColor);
+  }
+
+  .online-trainers
+  {
+    margin: 10px 20px;
+    background-color: var(--whiteColor);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px #00000034;
+    font-weight: 500;
+  }
+
+  .online-trainers .header
+  {
+    font-size: 20px;
+  }
+
+  .list .trainer
+  {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px;
+    gap: 10px;
+  }
+
+  .list .course
+  {
+    width:55%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+    font-size: 18px;
+    gap: 40px;
+  } 
+  .go-to-btn
+  {
+    margin: 0;
+    border-color:var(--primaryColor);
+  }
+
+  .extra
+  {
+    margin: 10px 20px;
+    background-color: var(--whiteColor);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px #00000034;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .added-courses
+  {
+    margin: 10px 20px;
+    background-color: var(--whiteColor);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px #00000034;
+    font-weight: 500;
+  }
+
+  @media(max-width:768px){
+    .list .course{
+      width:80%;
+    }
+  }
+
+  @media(min-width:769px) and (max-width:1023px){
+  }

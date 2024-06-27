@@ -1,0 +1,18 @@
+.headerBefore-container .logo img {
+    width: 200px;
+}
+
+.headerBefore-container .ant-layout-header {
+    background-color: var(--whiteColor);
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 2px 8px var(--tertiaryColor);
+}
+
+
+.headerBefore-container .switch .ant-switch.ant-switch-checked{
+    background-color: var(--tertiaryColor)!important;
+}

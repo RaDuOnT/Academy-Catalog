@@ -1,0 +1,49 @@
+:root {
+  --primaryColor: #F25C05;
+  --secondaryColor: #F1C728;
+  --tertiaryColor: #E45826;
+  --quaternaryColor: #F3D92C;
+  --activeColor: #f28705ab;
+  --selectedColor:#f28705;
+  --blackColor: #000000;
+  --whiteColor: #FFFFFF;
+  --hoverOnLink: rgba(170, 62, 0, 0.849);
+  --detailsColor: rgba(242, 92, 5, 0.5);
+  --alertColor:red;
+  /* Login colors */
+  --whiteGrayColor: #DFE0DF;
+  --whiteGraySecondaryColor: #F2F3F5;
+  --blackGrayColor: #1B1A17;
+  --errorSecondaryColor: #880808;
+
+}
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  overflow-y: overlay;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--primaryColor) ;
+  border-radius: 2px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:var(--selectedColor);
+}
+
+@media(max-width:360px) {
+  * {
+    display: none;
+  }
+
+}

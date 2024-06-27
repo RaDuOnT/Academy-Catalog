@@ -1,0 +1,62 @@
+.emailConfirmContainer {
+    padding-top:30px;
+    display: flex;
+    align-items: center;
+}
+
+.emailConfirmText {
+    width:70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+}
+
+#verify{
+    font-size: 25px;
+    font-weight:600;
+} 
+
+.emailConfirmText h1{
+    font-size: 35px;
+    color:var(--primaryColor);
+    margin-top:20px;
+}
+
+.emailConfirmText h1, .emailConfirmText p:first-of-type{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.233);
+}
+
+.emailConfirmContainer img{
+    width:15%;
+}
+
+
+.confirmBtn{
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    margin:20px 0px 20px 0px;
+    color:var(--whiteColor);
+    background-color: var(--primaryColor);
+    border:none;
+    cursor: pointer;
+}
+
+ .confirmBtn:hover{
+    background-color: var(--selectedColor);
+}
+
+.icons-footer-verify svg {
+    color:var(--blackColor);
+} 
+
+.icons-footer-verify svg:hover{
+    background-color: transparent;
+}
+
+.footerBefore-container-verify p{
+   margin-top: 100px;
+   font-weight: 600;
+   font-size: 20px;
+} 

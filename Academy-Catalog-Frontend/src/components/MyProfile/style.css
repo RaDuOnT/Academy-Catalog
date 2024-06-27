@@ -1,0 +1,36 @@
+/* edit profile content */
+.my-profile {
+    overflow-y:scroll;
+    padding: 50px 20px;
+  }
+
+  /* edit profile section */
+  .edit-form {
+    text-align: center;
+  }
+
+  .edit-form form label {
+    font-weight: 500;
+  }
+
+  .ant-form-item {
+    margin-bottom: 14px;
+  }
+
+  /* feedback section */
+  .feedback-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .ant-card .ant-card-body{
+    padding: 0 24px 24px 24px;
+  }
+
+/* media for edit profile section */
+  @media (max-width: 575px) {
+    .edit-form {
+      padding: 0 20px;
+    }
+  }

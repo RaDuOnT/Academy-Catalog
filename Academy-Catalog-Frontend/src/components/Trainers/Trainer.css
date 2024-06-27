@@ -1,0 +1,189 @@
+.trainers {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.trainers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:30px;
+}
+
+.trainers-content,
+.trainers-header {
+    margin: 0 30px 15px 30px;
+}
+
+
+.ant-table-wrapper {
+    margin: 0px;
+    width: 100%;
+    min-height: 60%;
+}
+.ant-form-item .ant-form-item-label >label{
+    width: 120px;
+}
+
+.trainers-content {
+    max-height: 900px;
+    overflow-x: scroll;
+}
+
+.top-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.trainer-content {
+    display: flex;
+}
+
+.trainer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trainer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trainer-right {
+    padding: 50px;
+}
+
+.trainer-right p {
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h4 {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--primaryColor);
+}
+
+.courses-title {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.37);
+}
+
+.profile-photo-text {
+    font-size: 17px;
+}
+
+button.ant-btn.css-dev-only-do-not-override-1ij74fp.ant-btn-default.customizedButton {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    border-color: var(--whiteColor);
+}
+
+:where(.css-dev-only-do-not-override-1ij74fp).ant-pagination .ant-pagination-item-active a {
+    color: var(--blackColor);
+}
+
+:where(.css-dev-only-do-not-override-1ij74fp).ant-pagination .ant-pagination-item-active a:hover {
+    color: var(--primaryColor);
+}
+
+:where(.css-dev-only-do-not-override-1ij74fp).ant-pagination .ant-pagination-item-active {
+    border-color: var(--blackColor);
+}
+
+:where(.css-dev-only-do-not-override-1ij74fp).ant-pagination .ant-pagination-item-active:hover {
+    border-color: var(--primaryColor);
+    color: var(--primaryColor);
+}
+
+input.ant-input.css-dev-only-do-not-override-1ij74fp:hover {
+    border-color: var(--primaryColor);
+}
+
+input.ant-input.css-dev-only-do-not-override-1ij74fp:focus {
+    border-color: var(--primaryColor);
+}
+
+:where(.css-dev-only-do-not-override-1ij74fp).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button:hover {
+    border-color: var(--primaryColor);
+}
+
+.anticon svg:hover {
+    color: var(--primaryColor);
+}
+
+.anticon-delete svg {
+    color: var(--primaryColor);
+}
+
+.anticon svg:hover {
+    color: var(--primaryColor);
+}
+
+.ant-btn-primary {
+    background-color: var(--primaryColor);
+}
+
+.ant-btn-primary:hover {
+    background-color: var(--primaryColor);
+}
+
+.ant-select-selector:focus {
+    border-color: var(--primaryColor);
+}
+
+:where(.css-dev-only-do-not-override-1ij74fp).ant-modal-confirm-info .ant-modal-confirm-body>.anticon {
+    color: var(--primaryColor);
+}
+
+
+@media (max-width: 535px) {
+    .trainer-details span {
+        max-width: 37%;
+    }
+
+    .trainer-details .title {
+        max-width: 46%;
+    }
+
+    .details-buttons {
+        display: flex !important;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .trainer-right {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .trainer-details span {
+        max-width: 45%;
+    }
+
+    .trainer-details .title {
+        max-width: 60%;
+    }
+
+    .trainers-content {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .trainers-header {
+        flex-direction: column;
+    }
+}
+.trainer-add .ant-input-number{
+    width: 270px;
+}

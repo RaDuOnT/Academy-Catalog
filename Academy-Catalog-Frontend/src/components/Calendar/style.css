@@ -1,0 +1,103 @@
+body{
+    overflow:hidden;
+}
+.calendar-content .events {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-content {
+    overflow-x: scroll;
+    height: calc(100vh - 174px);
+}
+
+.calendars-header {
+    display: flex;
+
+}
+
+.calendar-content, .calendars-header{
+     margin: 0 30px 15px 30px;
+}
+.calendars, .calendar {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.calendar-content .ant-picker-calendar-header {
+    margin: 10px;
+}
+
+.calendar-content td, .calendar-content th {
+    border-right: 2px solid var(--detailsColor);
+}
+
+.calendar-content td:last-child, .calendar-content th:last-child {
+    border-right: 0px solid var(--detailsColor);
+}
+
+.calendar-content .ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date-today {
+    border-color: var(--primaryColor);
+}
+
+.calendar-content .ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-in-view:is(.ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected) .ant-picker-calendar-date,
+.calendar-content .ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-in-view:is(.ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected) .ant-picker-calendar-date-today {
+
+    background: #fde8dc;
+    color: var(--whiteColor);
+    ;
+}
+
+.calendar-content .ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date .ant-picker-calendar-date-value,
+.calendar-content .ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected:hover .ant-picker-calendar-date .ant-picker-calendar-date-value,
+.calendar-content .ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected .ant-picker-calendar-date-today .ant-picker-calendar-date-value,
+.calendar-content.ant-picker-calendar.ant-picker-calendar-full .ant-picker-cell-selected:hover .ant-picker-calendar-date-today .ant-picker-calendar-date-value {
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+
+.calendar-content .ant-badge.ant-badge-status .ant-badge-status-text{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.calendar-content .ant-picker-calendar .ant-picker-cell-in-view:is(.ant-picker-calendar .ant-picker-cell-selected) .ant-picker-cell-inner, 
+.calendar-content .ant-picker-calendar .ant-picker-cell-in-view:is(.ant-picker-calendar .ant-picker-cell-range-start) .ant-picker-cell-inner,
+.calendar-content .ant-picker-calendar .ant-picker-cell-in-view:is(.ant-picker-calendar .ant-picker-cell-range-end) .ant-picker-cell-inner{
+background-color: var(--primaryColor);
+}
+
+.calendar-content .ant-picker-calendar .ant-picker-cell-in-view:is(.ant-picker-calendar .ant-picker-cell-today) .ant-picker-cell-inner::before{
+    border-color: var(--primaryColor);
+}
+
+
+.calendar-content .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child,
+.calendar-content .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled),
+.calendar-content .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before{
+    border-color: var(--primaryColor);
+    color:var(--whiteColor);
+    background-color: var(--primaryColor);
+}
+
+.calendar-content .ant-select:not(.ant-select-customize-input) .ant-select-selector:focus{
+    border-color:var(--primaryColor);
+}
+
+.calendar-content .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector,
+.calendar-content .ant-select-focused.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector{
+    border-color:var(--primaryColor);
+}
+
+.calendar-content .ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled){
+    background: #fde8dc;
+    color: var(--primaryColor);
+}
+.calendar-content .ant-radio-button-wrapper:hover,
+.calendar-content .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover
+{
+    color: var(--blackColor);
+    border-color:var(--primaryColor);
+}
+

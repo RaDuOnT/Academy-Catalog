@@ -1,0 +1,274 @@
+.login-form-forgot {
+  float: right;
+}
+.login-container .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-container .login-form-button {
+  width: 100%;
+}
+.login-container .login-image-content {
+  width: 500px;
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container .login-form {
+  width: 500px;
+  background-color: var(--primaryColor);
+  padding: 0 24px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+}
+
+  /* CHECKBOX -> REMEMBER ME CSS */
+
+  .login-container .ant-checkbox-checked .ant-checkbox-inner, 
+  .login-container .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  border-color: var(--secondaryColor);
+  color: var(--secondaryColor);
+  background-color: var(--secondaryColor);
+}
+
+.login-container .ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner,
+.login-container .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled):after,
+.login-container .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled):after,
+.login-container .ant-checkbox-checked:after, .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner {
+  border-color: var(--secondaryColor);
+}
+
+.login-container .login-form-remember {
+  color: var(--whiteColor);
+  font-size: 15px;
+}
+
+.login-container .login-form-remember:hover {
+  color:var(--whiteGrayColor);
+}
+
+.login-container .login-form-forgot {
+  color: var(--whiteColor);
+  font-size: 15px;
+}
+
+.login-container .login-form-forgot:hover {
+  color: var(--whiteGrayColor);
+}
+
+.login-container .login-register-now {
+  text-align: center;
+}
+
+.login-container .ant-btn-primary {
+  background-color: var(--whiteColor);
+  font-size: 18px;
+  color: var(--blackGrayColor);
+  
+}
+
+.login-container .ant-btn-primary:not(:disabled):hover  {
+  background-color: var(--whiteGraySecondaryColor);
+  color: var(--blackGrayColor);
+}
+
+.login-container .ant-input-affix-wrapper {
+height: 40px;
+}
+
+.login-container .ant-btn-primary {
+height: 40px;
+}
+.login-container .login-register-now{
+color: var(--whiteColor);
+font-size: 15px;
+}
+
+.login-container .login-register-now a{
+color: var(--whiteColor);
+font-size: 15px;
+text-decoration: underline;
+}
+
+.login-container .login-register-now a:hover {
+color: var(--whiteGrayColor);
+}
+.login-container .ant-input-affix-wrapper:hover, 
+.login-container .ant-input-affix-wrapper-disabled:hover,
+.login-container .ant-input-affix-wrapper:focus,
+.login-container .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+.login-container .ant-input-affix-wrapper-focused,
+.login-container .ant-input-affix-wrapper-focused:hover,
+.login-container .ant-input-affix-wrapper-focused:focus,
+.login-container .ant-input-affix-wrapper-focused:not(.ant-input-affix-wrapper-disabled):hover,
+.login-container .ant-input-affix-wrapper-focused:not(.ant-input-affix-wrapper-disabled):focus
+{
+border-color: var(--tertiaryColor);  
+}
+
+.login-container .login-title {
+text-align: center;
+font-size: 32px;
+margin: 0;
+color: var(--whiteColor);
+text-shadow: 1px 1px 1px var(--tertiaryColor);
+}
+
+.login-container .login-title-hr{
+width: 25%;
+border: none;
+border-top: 3px solid var(--quaternaryColor);
+border-radius: 5px;
+margin: 0 auto;
+}
+
+.login-container .ant-form-item .ant-form-item-explain-error {
+color: var(--whiteColor);
+margin-top: 5px;
+margin-left: 5px;
+margin-bottom: 20px;
+}
+
+.login-container .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+.login-container .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper .ant-input-prefix,
+.login-container .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper .ant-input-prefix {
+border-color: var(--errorSecondaryColor);
+color: var(--errorSecondaryColor);
+}
+
+.login-form-forgot-undertitle {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.login-form-forgot-password-email-info {
+    border: 1px dashed var(--primaryColor);
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.login-form-forgot-password-resend {
+  text-align: center;
+}
+.login-form-forgot-password-resend a{
+  color: var(--primaryColor);
+}
+
+
+@media (min-width:1006px){
+.login-container {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+}
+
+@media (max-width:1005px){
+.login-container .login-form{
+  width: 400px;
+  height: 350px;  
+}
+
+
+.login-container .login-image-content {
+  width: 400px;
+}
+
+.login-container {
+  margin-top: 10%;
+}
+}
+
+@media (max-width:810px) {
+.login-container {
+  flex-direction: column-reverse;
+  margin-top: 6%;
+  margin-bottom: 15%;
+}
+.login-container .login-form{
+  width: 350px;
+  height: 300px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;  
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.login-container .login-image-content {
+  width: 350px;
+}
+
+.login-container .login-title {
+  font-size: 22px;
+  padding-top: 5%;
+}
+}
+
+@media (max-width:650px) {
+.login-container .login-form {
+  margin-top: 0;
+  margin-bottom: 20%;
+}
+
+}
+
+@media (max-width:515px) {
+.login-container .login-form {
+  margin-top: 0;
+}
+}
+
+@media (max-width:415px) {
+.login-container .login-form{
+  width: 300px;
+  height: 300px;
+}
+.login-container .login-image-content {
+  width: 300px;
+}
+
+.login-container .login-title {
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.login-container {
+  margin-bottom: 20%;
+}
+}
+
+@media (max-width:350px) {
+.login-container .login-form {
+  width: 300px;
+  height: 300px;
+}
+
+.login-container .login-image-content {
+  width: 300px;
+}
+
+.login-container .login-title {
+  font-size: 12px;
+  padding-top:15px
+}
+
+.ant-form-item {
+  margin-bottom: 12px;
+}
+.login-container {
+  margin-bottom: 30%;
+}
+}

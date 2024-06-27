@@ -1,0 +1,85 @@
+.resources-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+
+.resources-content,
+.resources-header {
+    margin: 0 30px 15px 30px;
+}
+
+.resources-content-container {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.ant-table-wrapper {
+    width: 100%;
+}
+
+.inputs {
+    justify-content: space-between;
+}
+
+.add-new-resource-hr {
+    border-top: 2px solid var(--primaryColor);
+    width: 35%;
+    margin: 0;
+}
+
+
+.ant-btn-default {
+    border-color: var(--primaryColor);
+}
+
+.ant-btn-dark span,
+.ant-btn-link,
+.ant-btn-sm span {
+    color: var(--primaryColor);
+}
+
+.ant-btn span:focus,
+.ant-btn:hover span {
+    border-color: var(--primaryColor);
+}
+
+.ant-dropdown .ant-table-filter-dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.resources-header .addBtn {
+    min-width: 215px;
+    margin-top: 15px;
+}
+
+.resources-content {
+    max-height: 900px;
+    overflow-y: scroll;
+}
+
+.upload-btn {
+    border: none;
+    background-color:transparent;
+    box-shadow: none;
+}
+
+.upload-btn:focus{
+    background-color: none;
+}
+
+@media (max-width: 768px) {
+    .resources-header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 321px) {
+    .resources-header .addBtn {
+        min-width: 178px;
+    }
+}

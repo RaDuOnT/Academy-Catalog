@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+}
+
+.signup-form-container-page {
+    width: 100vw;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.signup-form-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    background-color: var(--whiteColor);
+    border-radius: 8px;
+}
+
+
+.signup-form-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+    text-shadow: 1px 0px 1px rgb(85, 44, 25);
+    width: 100%;
+    text-decoration: underline;   
+}
+
+.signup-form-container .ant-row  {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.signup-form-inputs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form-already-account a, .signup-form-container .ant-form-item .ant-form-item-control-input-content a {
+    color: var(--primaryColor);    
+}
+
+.detail-color{
+    color:var(--primaryColor);
+}
+
+.signup-form-container span p{
+    width:100%;
+}
+@media (max-width:991px){
+    .signup-form-container {
+        width: 100%;
+        border:none;
+    }
+    .signup-form-container {
+        border-radius: 0px;
+    }
+}
+
+@media(min-width:1440px) and (min-height:780px){
+    .signup-form-container-page {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1439px){
+    .signup-form-container-page {
+
+        padding-top: 5%;
+        padding-bottom: 12%;
+
+
+    }
+}
+
+@media(min-width:769px) and (max-width:1023px){
+    .signup-form-container-page {
+        padding-top: 5%;
+        padding-bottom: 11%;
+    }
+}
+@media(min-width:601px) and (max-width:768px){
+    .signup-form-container-page {
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+}
+
+@media(min-width:425px) and (max-width:600px){
+    .signup-form-container-page {
+        padding-top: 5%;
+        padding-bottom: 25%;
+    }
+}
+
+@media(min-width:320px) and (max-width:424px){
+    .signup-form-container-page {
+        padding-top: 5%;
+        padding-bottom: 42%;
+
+    }
+}

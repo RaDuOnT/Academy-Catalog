@@ -1,0 +1,8 @@
+.popup-buttons a:hover{
+    color:var( --whiteColor);
+    
+}
+
+.popup-buttons a:hover , .popup-buttons a:hover a{
+    background-color: var(--selectedColor);
+}

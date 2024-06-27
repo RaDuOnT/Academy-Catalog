@@ -1,0 +1,58 @@
+.footerBefore-container .ant-layout-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    font-size: 15px;
+    padding: 14px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBefore-container .footerBefore-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footerBefore-container .footerBefore-icons svg, .footerBefore-container .ant-btn {
+    width: 30px;
+    height: 30px;
+
+}
+
+.footerBefore-container .icons-footer.ant-btn,
+.footerBefore-container .icons-footer.ant-btn .anticon svg:active,
+.footerBefore-container .icons-footer.ant-btn .anticon svg:focus, 
+.footerBefore-container .icons-footer.ant-btn .anticon svg:hover {
+    color: var(--whiteColor) !important;
+    box-shadow: none;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+
+}
+
+.footerBefore-container .logofooter {
+    width: 100%;
+    height: 100%;
+}
+
+.footerBefore-container .logofooter img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width:650px) {
+    .footerBefore-container .ant-layout-footer{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        padding: 14px 30px;
+
+    }
+}

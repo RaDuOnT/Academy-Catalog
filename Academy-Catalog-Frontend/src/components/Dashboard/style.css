@@ -1,0 +1,194 @@
+
+
+.anticon-user svg, .anticon-menu-fold svg, .anticon-menu-unfold svg{
+  fill:var(--whiteColor);
+}
+
+.trigger {
+  position: absolute;
+  bottom: 0;
+  padding: 0 24px 20px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 350px;
+  font-size: 30px;
+}
+
+
+.dashboard-slider
+{
+  background: var(--slider_bgcolor);
+  color:var(--whiteColor);
+}
+
+.menu-dashboard-slider {
+  background: var(--slider_bgcolor);
+  color:var(--whiteColor);
+}
+
+.ant-menu-item-active {
+  background-color:var(--activeColor);
+}
+
+.ant-menu-item-selected {
+  background-color:var(--selectedColor);
+}
+
+.logo-container .ant-menu-item {
+  padding: 0;
+}
+
+.logo-container {
+  color:var(--whiteColor);
+  margin-top: 5px;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.logo-container span {
+  font-size: 20px;
+  text-align: center
+}
+
+.logo-container img {
+  margin-top: 5px;
+  width: 36px;
+  margin: 0 auto;
+}
+
+.ant-menu .ant-menu-item {
+  margin: 15px 0;
+}
+
+.header-bar
+{
+  display: grid;
+  place-content: center end;
+}
+
+.header-bar .right-side
+{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.ant-avatar{
+  background-color: var(--primaryColor);
+  color:var(--whiteColor);
+  fill:var(--whiteColor);
+}
+
+.anticon{
+  flex-direction: row-reverse;
+}
+
+
+
+.avatar:hover
+{
+  transform: brightness(0.8);
+  pointer-events: visible;
+  cursor: pointer;
+}
+
+.notif-btn
+{
+  cursor: pointer;
+}
+
+.bell-badge
+{
+  display: grid;
+  place-items: center;
+}
+
+.bell-icon
+{
+  font-size: 20px;
+}
+
+.avt-pop-content
+{
+  padding: 10px ;
+}
+
+.avt-pop-content hr
+{
+  margin: 10px auto 10px;
+  width: 80%;
+}
+
+.avt-pop-account
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.avt-pop-account .account-info
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avt-pop-account .account-info p
+{
+  margin: 0;
+}
+
+.avt-pop-account .account-info p a
+{
+  color: grey;
+  text-decoration: none;
+}
+
+
+.popup-buttons
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-buttons a
+{
+  background-color: var(--primaryColor);
+  padding: 6px 16px;
+  width: 60%;
+  text-align: center;
+  border-radius: 5px;
+  color:var(--whiteColor);
+
+}
+
+.user-account-name
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--blackColor);
+  line-height: 16px;
+}
+
+.user-account-name p
+{
+  margin: 0;
+}
+
+.account
+{
+  display: flex;
+  gap: 10px;
+}

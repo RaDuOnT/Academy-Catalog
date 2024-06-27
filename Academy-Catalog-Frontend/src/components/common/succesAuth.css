@@ -1,0 +1,46 @@
+.emailSuccessContainer {
+    padding-top:30px;
+    display: flex;
+    align-items: center;
+}
+
+.emailSuccessText {
+    width:70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+}
+
+#verify{
+    font-size: 25px;
+    font-weight:600;
+} 
+.emailSuccessText h1{
+    font-size: 35px;
+    color:var(--primaryColor);
+
+}
+
+.emailSuccessText h1, .emailSuccesText p:first-of-type{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.233);
+}
+
+.emailSuccessContainer img{
+    width:15%;
+}
+
+
+.icons-footer-verify svg {
+    color:var(--blackColor);
+} 
+
+.icons-footer-verify svg:hover{
+    background-color: transparent;
+}
+
+
+.footerBefore-container-succes{
+    padding-top:200px;
+}
